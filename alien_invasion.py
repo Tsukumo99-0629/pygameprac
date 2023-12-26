@@ -4,7 +4,7 @@ import pygame
 
 from settings import Settings
 from ship import Ship
-from yusya import Yusya
+#from yusya import Yusya
 
 class AlienInvasion:
     def __init__(self):
@@ -16,7 +16,7 @@ class AlienInvasion:
         )
         pygame.display.set_caption("エイリアン侵略")
         self.ship = Ship(self)
-        self.yusya = Yusya(self)
+        #self.yusya = Yusya(self)
 
 
 
